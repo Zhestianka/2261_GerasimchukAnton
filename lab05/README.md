@@ -240,4 +240,15 @@ if (s != s)
 
 число находится 2 в 53 степени + 1 = 9007199254740993 нечётное и находится между 9007199254740992 и 9007199254740994. Оно округляется к 9007199254740992, поэтому записывается с погрешностью. Следуйщее число 9007199254740994 = 2 в пятой степени + 2 чётное и совпадает с одним из представимых чисел, поэтому выводится точно.
 
+## Olimp
+
+![2](https://github.com/Zhestianka/ProgLang/blob/main/lab05/py/file-2.webp)
+
+![3](https://github.com/Zhestianka/ProgLang/blob/main/lab05/py/file-3.webp)
+
+![4](https://github.com/Zhestianka/ProgLang/blob/main/lab05/py/file-5.webp)
+
+![5](https://github.com/Zhestianka/ProgLang/blob/main/lab05/py/file-6.webp)
+
+![6](https://github.com/Zhestianka/ProgLang/blob/main/lab05/py/file-7.webp)
 
