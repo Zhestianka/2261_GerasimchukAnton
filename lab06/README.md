@@ -30,11 +30,11 @@ int main() {
 
 ![3](https://github.com/Zhestianka/ProgLang/blob/main/lab06/01/qxmcLWzY-7-heJKE4Zn-EhtcKhuX-2VU261DQ8UrEE4H-qdSLfSPgZxarejAs7o7bJ67dMF3N0_i3VxdSL6OXDyE.jpg)
 
-После инициализации Pi нельзя менять. Но const не требует, чтобы значение было известно на этапе компиляции. Если std::acos не constexpr, выражение может вычисляться во время выполнения компилятор может посчитать заранее, но не обязан.
+После инициализации Pi нельзя менять. Но const не требует, чтобы значение было известно на этапе компиляции. Если std::acos не constexpr, выражение может вычисляться во время выполнения компилятор может посчитать заранее, но не обязан. Программа работает. Формально это константа времени выполнения. Но компилятор видит константу 0 и при оптимизации может посчитать Pi заранее.
 
 ![4](https://github.com/Zhestianka/ProgLang/blob/main/lab06/01/k4pf6ece8AeZ-9QynCMyGKtUddOXwEtj6PfVnXd_-O9gaWvxz73pZcN_osjAI6td4CuYT0HT-Ey75GPQLtLeU19_.jpg)
 
-Все выражение должно быть константным и вычислимым на этапе компиляции. Если std::acos не constexpr, код не скомпилируется. Если constexpr, то Pi настоящая константа времени компиляции.
+Здесь объявляется настоящая константа этапа трансляции. Все выражение должно быть константным и вычислимым на этапе компиляции. Если std::acos не constexpr, код не скомпилируется. Если constexpr, то Pi настоящая константа времени компиляции.
 
 ![5](https://github.com/Zhestianka/ProgLang/blob/main/lab06/01/xQAeA1u6I0N923qCiyHs2QzeXKZU3KT95R703KW32x3m1m9XYlTBfRNyPKQ_ztJGUx_4kCyinShwu5aPlisb711M.jpg)
 
