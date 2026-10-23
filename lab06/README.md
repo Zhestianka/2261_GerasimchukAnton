@@ -28,6 +28,14 @@ int main() {
 - const = значение нельзя менять во время работы программы. Оно посчитаться прямо при запуске.
 - constexpr = значение обязано посчитаться компилятором еще до запуска программы.
 
+![3](https://github.com/Zhestianka/ProgLang/blob/main/lab06/01/qxmcLWzY-7-heJKE4Zn-EhtcKhuX-2VU261DQ8UrEE4H-qdSLfSPgZxarejAs7o7bJ67dMF3N0_i3VxdSL6OXDyE.jpg)
+
+![4](https://github.com/Zhestianka/ProgLang/blob/main/lab06/01/k4pf6ece8AeZ-9QynCMyGKtUddOXwEtj6PfVnXd_-O9gaWvxz73pZcN_osjAI6td4CuYT0HT-Ey75GPQLtLeU19_.jpg)
+
+![5](https://github.com/Zhestianka/ProgLang/blob/main/lab06/01/xQAeA1u6I0N923qCiyHs2QzeXKZU3KT95R703KW32x3m1m9XYlTBfRNyPKQ_ztJGUx_4kCyinShwu5aPlisb711M.jpg)
+
+![6](https://github.com/Zhestianka/ProgLang/blob/main/lab06/01/xlbr9hZk352251p6V9iU7zaqICsgHjTA4s_T6jXuU6RymWTH4mqWgJLL0Xw5iNj2FEZ8XfTmY9G68Ajsm1QQ1jlI.jpg)
+
 
 ---
 
@@ -124,7 +132,11 @@ i по очереди становится 0, 1 и 2. К s прибавляет�
 *Напишите свой пример программы на* **С++**, *создающий и использующий пространства имен. Программа
 должна содержать не менее двух пространств имен.*
 
+## Ответ
+
 ![2](https://github.com/Zhestianka/ProgLang/blob/main/lab06/05/Ir6ytkZ_8eq9_zsazWUyHjn04gVSVbQns68iOdel-DpmDosD0-D54rEmYiZv5RjTjNoSMbQj97vWBMkzHUdY9iI3.jpg)
+
+---
 
 ### Задание 7 **(2)**
 
