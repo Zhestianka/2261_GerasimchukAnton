@@ -30,12 +30,19 @@ int main() {
 
 ![3](https://github.com/Zhestianka/ProgLang/blob/main/lab06/01/qxmcLWzY-7-heJKE4Zn-EhtcKhuX-2VU261DQ8UrEE4H-qdSLfSPgZxarejAs7o7bJ67dMF3N0_i3VxdSL6OXDyE.jpg)
 
+После инициализации Pi нельзя менять. Но const не требует, чтобы значение было известно на этапе компиляции. Если std::acos не constexpr, выражение может вычисляться во время выполнения компилятор может посчитать заранее, но не обязан.
+
 ![4](https://github.com/Zhestianka/ProgLang/blob/main/lab06/01/k4pf6ece8AeZ-9QynCMyGKtUddOXwEtj6PfVnXd_-O9gaWvxz73pZcN_osjAI6td4CuYT0HT-Ey75GPQLtLeU19_.jpg)
+
+Все выражение должно быть константным и вычислимым на этапе компиляции. Если std::acos не constexpr, код не скомпилируется. Если constexpr, то Pi настоящая константа времени компиляции.
 
 ![5](https://github.com/Zhestianka/ProgLang/blob/main/lab06/01/xQAeA1u6I0N923qCiyHs2QzeXKZU3KT95R703KW32x3m1m9XYlTBfRNyPKQ_ztJGUx_4kCyinShwu5aPlisb711M.jpg)
 
+Компилируется, но значение зависит от обычной переменной x. Это не константа времени компиляции: Pi посчитается один раз во время выполнения от текущего x, после чего её нельзя менять. Если x потом изменится, Pi уже не изменится.
+
 ![6](https://github.com/Zhestianka/ProgLang/blob/main/lab06/01/xlbr9hZk352251p6V9iU7zaqICsgHjTA4s_T6jXuU6RymWTH4mqWgJLL0Xw5iNj2FEZ8XfTmY9G68Ajsm1QQ1jlI.jpg)
 
+Не компилируется, если x обычная переменная. Причина в x constexpr требует, чтобы всё выражение было известно компилятору, а обычная x не является константой времени компиляции. Даже если std::acos поддерживает constexpr, это не делает x константой. Сработало бы только если x тоже была бы constexpr, например constexpr double x = 0.0;.
 
 ---
 
