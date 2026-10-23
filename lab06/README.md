@@ -124,6 +124,8 @@ i по очереди становится 0, 1 и 2. К s прибавляет�
 *Напишите свой пример программы на* **С++**, *создающий и использующий пространства имен. Программа
 должна содержать не менее двух пространств имен.*
 
+![2](https://github.com/Zhestianka/ProgLang/blob/main/lab06/05/Ir6ytkZ_8eq9_zsazWUyHjn04gVSVbQns68iOdel-DpmDosD0-D54rEmYiZv5RjTjNoSMbQj97vWBMkzHUdY9iI3.jpg)
+
 ### Задание 7 **(2)**
 
 *Рассмотрим программу на языке* **Python**.
