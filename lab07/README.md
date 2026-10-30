@@ -330,6 +330,6 @@ if (!x == 5) {
 
 ### Python
 
-![4](https://github.com/Zhestianka/ProgLang/blob/main/lab07/01/2026-10-30%2012.38.41.jpg)
+![4](https://github.com/Zhestianka/ProgLang/blob/main/lab07/pyton/2026-10-30%2012.38.46.jpg)
 
 ![5](https://github.com/Zhestianka/ProgLang/blob/main/lab07/pyton/2026-10-30%2012.38.52.jpg)
