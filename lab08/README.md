@@ -120,6 +120,37 @@ print(*b)
 (в том числе и к последнему), найдет и выведет количество положительных и отрицательных элементов вектора
 после изменения. Из циклов в программе можно использовать только циклы по коллекции.*
 
+**Ответ:**
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    vector<int> v(n);
+    for (int& x : v) {
+        cin >> x;
+    }
+
+    int last = v.back();
+    for (int& x : v) {
+        x += last;
+    }
+
+    int positive = 0, negative = 0;
+    for (int x : v) {
+        if (x > 0) positive++;
+        else if (x < 0) negative++;
+    }
+
+    cout << "Positive: " << positive << endl;
+    cout << "Negative: " << negative << endl;
+}
+```
+
 ### Задание 6 **(3)**
 
 *Представим, что в некотором будущем стандарте* **С++** *появится конструкция*
