@@ -67,6 +67,37 @@ print(i)
 *Напишите пример программы на* **Java** *с двумя вложенными циклами и инструкцией* **break** *для выхода
 из двух вложенных циклов. В качестве такой программы можно взять поиск первого нуля в двумерном массиве.*
 
+```
+import java.util.*;
+public class Main {
+    public static void main(String args[]) {
+        int x[][] = new int[10][10];
+        Random rnd = new Random();
+        for (int i=0;i<10;i++) {
+            for (int j=0;j<10;j++) {
+                x[i][j]=rnd.nextInt(10);
+            }
+        }
+
+        for (int i=0;i<10;i++) {
+            for (int j=0;j<10;j++) {
+                System.out.print(x[i][j]);
+            }
+            System.out.println();
+        }
+
+        circle: for (int i=0;i<10;i++) {
+            for (int j=0;j<10;j++) {
+                if (x[i][j]==0) {
+                    System.out.printf("%d %d\n",i,j);
+                    break circle;
+                }
+            }
+        }
+    }
+}
+```
+
 ### Задание 4 **(2)**
 
 *Рассмотрим программу на языке* **Python**.
