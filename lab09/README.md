@@ -175,7 +175,21 @@ def every_other ( seq )
 21
 ```
 
+### Ответ:
 
+```
+def every_other(seq):
+    it = iter(seq)
+    e = next(it, None)
+    while(e != None):
+        yield e
+        e = next(it, None)
+        e = next(it, None)
+
+
+i = [1, 2, 3, 4, 5]
+print(*every_other(i))
+```
 
 ### Задание 8 **(2)**
 
