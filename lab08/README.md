@@ -121,7 +121,7 @@ print(*b)
 после изменения. Из циклов в программе можно использовать только циклы по коллекции.*
 
 **Ответ:**
-```cpp
+```
 #include <iostream>
 #include <vector>
 using namespace std;
