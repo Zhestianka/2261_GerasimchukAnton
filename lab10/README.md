@@ -25,6 +25,8 @@ std::cout << *p <<' '<< *q << std::endl;
 
 * в C зависит от места: в int *p это часть типа, в a * b — умножение, а в *p — разыменование. Если int a=10, b=20; int *p=&a, *q=&b;, то p = q копирует адрес: теперь p и q указывают на b, но a и b не меняются (a=10, b=20). А *p = *q копирует значение: 20 из b записывается в a, получается a=20, b=20, но указатели всё ещё смотрят на разные переменные.
 
+![1](https://github.com/Zhestianka/2261_GerasimchukAnton/blob/main/lab10/01/iA8nn_HJchl5WDzz5Dv2cJbajzGAlIwres5mxzKQ96lKD9441j9YpFmA_3GHqOvvEsW4zTG7M7pdE2Uh9z_ruG4v.jpg)  
+
 ### Задание 2 **(1)**
 
 *Рассмотрим следующую программу.* 
