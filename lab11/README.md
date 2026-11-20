@@ -21,6 +21,22 @@ int main() {
 
 ![1](https://github.com/Zhestianka/2261_GerasimchukAnton/blob/main/lab11/01/GtJOSjVcpxwxXMGmJS12Y2le-jhfF9KjW8WKM4uM1Ai_fL79h0zGRdl0wBIHqHrV6eZogLDO-jaHy7K_wbd9HJmU.jpg)
 
+```cpp
+#include <iostream>
+int bar(int x);
+
+int foo(int x) {
+    return bar(x);
+}
+int bar(int x) {
+    return x+1;
+}
+int main() {
+    foo(0);
+    return 0;
+}
+```
+
 ### Задание 2 **(1)**
 
 *Функция* **dswap** *должна была обменивать значения своих параметров.* 
