@@ -19,6 +19,8 @@ int main() {
 }
 ```
 
+## Ответ
+
 ![1](https://github.com/Zhestianka/2261_GerasimchukAnton/blob/main/lab11/01/GtJOSjVcpxwxXMGmJS12Y2le-jhfF9KjW8WKM4uM1Ai_fL79h0zGRdl0wBIHqHrV6eZogLDO-jaHy7K_wbd9HJmU.jpg)
 
 ```cpp
@@ -57,6 +59,8 @@ int main(void) {
    return 0;
 }
 ```
+
+## Ответ 
 
 ```cpp
 #include <iostream>
